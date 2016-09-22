@@ -1,0 +1,10 @@
+<div class="clearfix">
+	<form ng-Submit="post()" ng-show='authenticated'>
+		<h4>{{current_user}} posts</h4>
+		<textarea required class="form-control" maxlength="200" rows="3" placeholder="Write your posts here" ng-model="newPost.text"></textarea>
+		<input class="btn submit-btn pull-right" type="submit" value="Post It" />
+		<br>
+	</form>
+	<code-logic></code-logic>
+</div>
+
